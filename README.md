@@ -1,2 +1,0 @@
-# restaurant
-POS restaurent

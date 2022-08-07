@@ -1,0 +1,15 @@
+server:
+  port: 9097
+spring :
+  datasource :
+    url: "jdbc:postgresql://localhost:5432/restaurant_pos"  
+    username: postgres  
+    password: admin
+  jpa:
+    properties :
+      hibernate :
+        default_schema : restaurant_pos
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto : update
+
